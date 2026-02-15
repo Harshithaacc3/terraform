@@ -1,4 +1,5 @@
 provider "aws" {
+  account id = "671669616800"
   region = "ap-south-1"
 }
 resource "aws_instance" "ec2" {
